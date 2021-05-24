@@ -1,0 +1,54 @@
+body {
+  background-color: #faf3f3;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #a7bbc7;
+  border-width: 5px;
+  width: 15%;
+}
+a{
+  color: #26001b;
+  font-size: 20px;
+}
+
+h2 {
+  color: #f73859;
+  font-family: fantasy;
+}
+
+h3 {
+  color: #1e56a0;
+}
+
+em {
+  color: #1e56a0;
+  font-size: 21px;
+}
+
+th {
+  color: #393e46;
+
+}
+img{
+  border-style: outset;
+  background-color: #29bb89;
+
+}
+/*****************************Class Selectors**********************************/
+.intro{
+  color: #29bb89;
+  font-size: 20px;
+
+}
+.table{
+  border-style: inset  ;
+  border-color: #f55c47;
+  border-width: thick;
+  font-size: 20px;
+}
+.quote{
+  border-style: outset;
+  border-color: #9ddfd3;
+}
