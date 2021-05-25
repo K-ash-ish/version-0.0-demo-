@@ -1,54 +1,42 @@
-body {
-  background-color: #faf3f3;
+body{
+  margin: 0;
+  text-align: center;
+}
+h1{
+  margin-top: 0;
+  font-family: 'Dancing Script', cursive;
+  color: red;
+
+  }
+  p{
+    font-family: 'Montserrat', sans-serif;
+    color: #a7bbc7;
+  }
+
+.topContainer{
+
+  background-color: #caf7e3;
+  position: relative;
+  padding-top: 100px;
 }
 
-hr {
-  border-style: dotted none none;
-  border-color: #a7bbc7;
-  border-width: 5px;
-  width: 15%;
-}
-a{
-  color: #26001b;
-  font-size: 20px;
-}
+.middleContainer{
 
-h2 {
-  color: #f73859;
-  font-family: fantasy;
-}
-
-h3 {
-  color: #1e56a0;
-}
-
-em {
-  color: #1e56a0;
-  font-size: 21px;
-}
-
-th {
-  color: #393e46;
 
 }
-img{
-  border-style: outset;
-  background-color: #29bb89;
+.belowContainer{
 
 }
-/*****************************Class Selectors**********************************/
-.intro{
-  color: #29bb89;
-  font-size: 20px;
+.bottom-cloud{
 
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
 }
-.table{
-  border-style: inset  ;
-  border-color: #f55c47;
-  border-width: thick;
-  font-size: 20px;
-}
-.quote{
-  border-style: outset;
-  border-color: #9ddfd3;
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 500px;
+
+
 }
